@@ -110745,7 +110745,7 @@ for(;;)switch(s){case 0:p=$.fC().b
 p===$&&A.a()
 o=A
 s=3
-return A.m(p.cg("drivers").dg("id,profile_id,status,license_number,vehicle_plate,vehicle_make,vehicle_model,vehicle_color,created_at,approved_at,profiles(full_name,phone,email)").ju("created_at",!1),$async$$1)
+return A.m(p.cg("drivers").dg("id,profile_id,status,license_number,vehicle_plate,vehicle_make,vehicle_model,vehicle_color,created_at,approved_at,profiles!drivers_profile_id_fkey(full_name,phone,email)").ju("created_at",!1),$async$$1)
 case 3:q=o.e2(c,!0,t.a)
 s=1
 break
@@ -111306,7 +111306,7 @@ for(;;)switch(s){case 0:p=$.fC().b
 p===$&&A.a()
 o=A
 s=3
-return A.m(p.cg("vehicles").dg("id,driver_id,plate_number,make,model,color,capacity,status,vehicle_type,created_at,drivers(profile_id,profiles(full_name,phone))").ju("created_at",!1),$async$$1)
+return A.m(p.cg("vehicles").dg("id,driver_id,plate_number,make,model,color,capacity,status,vehicle_type,created_at,drivers!vehicles_driver_id_fkey(profile_id,profiles!drivers_profile_id_fkey(full_name,phone))").ju("created_at",!1),$async$$1)
 case 3:q=o.e2(c,!0,t.a)
 s=1
 break
