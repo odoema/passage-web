@@ -179,19 +179,6 @@
   </style>
 </head>
 <body>
-  <div id="passage-launch-screen" aria-label="PASSAGE loading" role="status">
-    <div class="passage-launch-inner">
-      <img class="passage-launch-logo"
-           src="icons/passage_logo.png?v=4"
-           alt="PASSAGE">
-      <div class="passage-launch-tagline">Safe mobility, built for children</div>
-      <div class="passage-launch-dots" aria-hidden="true">
-        <span></span><span></span><span></span>
-      </div>
-    </div>
-    <div class="passage-launch-footer">SAFE&nbsp;&nbsp;•&nbsp;&nbsp;TRACKED&nbsp;&nbsp;•&nbsp;&nbsp;VERIFIED</div>
-  </div>
-
   <button id="passage-install-button" type="button" aria-label="Install PASSAGE">
     Install PASSAGE
   </button>
@@ -203,28 +190,6 @@
   </div>
 
   <script>
-    (function () {
-      const launch = document.getElementById('passage-launch-screen');
-
-      function hideLaunchScreen() {
-        if (!launch) return;
-        launch.classList.add('is-hidden');
-        window.setTimeout(function () {
-          if (launch && launch.parentNode) {
-            launch.parentNode.removeChild(launch);
-          }
-        }, 420);
-      }
-
-      // The Flutter app has its own matching animated splash. This short HTML
-      // handoff prevents the browser from showing a blank/unstyled frame first.
-      window.setTimeout(hideLaunchScreen, 1800);
-      window.addEventListener('load', function () {
-        window.setTimeout(hideLaunchScreen, 1100);
-      });
-    })();
-  </script>
-
   <script>
     (function () {
       let deferredPrompt = null;
