@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#E7F6F1"/><stop offset="1" stop-color="#A9DCCB"/></linearGradient></defs>
+<rect width="1080" height="1920" fill="url(#bg)"/>
+<circle cx="860" cy="250" r="180" fill="#fff" opacity=".42"/>
+<path d="M0 650 C210 530 360 610 510 700 C700 815 850 800 1080 670 V1350 H0Z" fill="#8DD0B1"/>
+<path d="M0 820 C210 720 360 790 520 900 C700 1025 880 980 1080 850 V1400 H0Z" fill="#3EAB7B"/>
+<!-- phone -->
+<rect x="250" y="310" width="580" height="980" rx="70" fill="#102735"/>
+<rect x="282" y="345" width="516" height="910" rx="48" fill="#F5F9F7"/>
+<rect x="445" y="370" width="190" height="34" rx="17" fill="#102735"/>
+<!-- map -->
+<path d="M320 510 H760 M320 680 H760 M320 850 H760 M320 1020 H760 M430 430 V1160 M600 430 V1160" stroke="#D6E6E1" stroke-width="14"/>
+<path d="M340 1080 C410 990 440 870 520 800 C610 720 650 690 730 560" fill="none" stroke="#03B721" stroke-width="24" stroke-linecap="round"/>
+<circle cx="340" cy="1080" r="34" fill="#03B721" stroke="#fff" stroke-width="12"/><circle cx="730" cy="560" r="34" fill="#03B721" stroke="#fff" stroke-width="12"/>
+<!-- location pins -->
+<path d="M510 780 c-55 0-82 42-82 82 0 62 82 130 82 130s82-68 82-130c0-40-27-82-82-82z" fill="#03B721"/><circle cx="510" cy="858" r="22" fill="#fff"/>
+<!-- driver card -->
+<rect x="335" y="1040" width="410" height="150" rx="30" fill="#fff" stroke="#D7E8E1" stroke-width="5"/>
+<circle cx="395" cy="1115" r="38" fill="#0A6E4A"/><circle cx="395" cy="1100" r="16" fill="#A96A45"/><path d="M365 1135 q30-40 60 0" fill="#03B721"/>
+<text x="455" y="1100" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="#102735">Driver arriving</text>
+<text x="455" y="1140" font-family="Arial,sans-serif" font-size="26" fill="#61757D">2 minutes away</text>
+<!-- route nodes -->
+<circle cx="330" cy="1420" r="22" fill="#03B721"/><circle cx="540" cy="1490" r="22" fill="#03B721"/><circle cx="760" cy="1425" r="22" fill="#03B721"/>
+<path d="M330 1420 Q430 1370 540 1490 Q650 1600 760 1425" fill="none" stroke="#fff" stroke-width="12" stroke-dasharray="22 18"/>
+<!-- hand -->
+<path d="M760 1250 q-60-30-120 30 l-160 170 q-35 40 10 75 35 25 70-8 l150-130 45 55 95-55z" fill="#8B4B2B"/>
+<path d="M690 1320 l100-130" stroke="#8B4B2B" stroke-width="55" stroke-linecap="round"/>
+</svg>

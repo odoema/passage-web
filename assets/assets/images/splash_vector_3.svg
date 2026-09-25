@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#DDF4ED"/><stop offset=".55" stop-color="#B9E5D5"/><stop offset="1" stop-color="#06452F"/></linearGradient></defs>
+<rect width="1080" height="1920" fill="url(#bg)"/>
+<circle cx="850" cy="240" r="190" fill="#fff" opacity=".36"/>
+<path d="M0 760 C230 630 390 720 560 820 C760 940 890 900 1080 780 V1390 H0Z" fill="#64C394"/>
+<path d="M0 1040 C250 900 400 960 570 1080 C760 1215 900 1180 1080 1030 V1500 H0Z" fill="#0A724D"/>
+<!-- campus tower -->
+<path d="M770 350 h170 v420 H770z" fill="#F8F0DC"/><path d="M745 350 l110-125 110 125z" fill="#D86B51"/><path d="M810 510 h90 v260 h-90z" fill="#D9B675"/><circle cx="855" cy="445" r="52" fill="#FFF4CE"/><path d="M855 445 v-32m0 32 25 15" stroke="#24434B" stroke-width="9" stroke-linecap="round"/>
+<!-- student 1 -->
+<circle cx="340" cy="970" r="90" fill="#7A452D"/><path d="M250 950 q20-145 135-125 q55 20 65 100 q-85-45-200 25z" fill="#151B28"/><path d="M255 1070 q85-75 170 0 l85 300 H170z" fill="#0B6C4B"/><path d="M285 1110 l-55 260m145-260 70 260" stroke="#152F39" stroke-width="28"/><path d="M275 1080 q-100 100-115 220" stroke="#7A452D" stroke-width="36" fill="none" stroke-linecap="round"/>
+<!-- student 2 -->
+<circle cx="550" cy="900" r="92" fill="#9B5A3B"/><path d="M455 890 q15-145 135-125 q60 20 70 110 q-105-55-205 15z" fill="#20202B"/><path d="M455 1010 q95-80 190 0 l90 360 H360z" fill="#F5F3E9"/><path d="M480 1040 l-45 330m145-330 65 330" stroke="#0A6C4B" stroke-width="26"/><rect x="475" y="1080" width="150" height="190" rx="12" fill="#03B721"/><path d="M545 1110 v90m-45-45h90" stroke="#fff" stroke-width="12" stroke-linecap="round"/>
+<!-- student 3 -->
+<circle cx="780" cy="990" r="82" fill="#6B3D2A"/><path d="M700 970 q12-130 120-115 q55 15 65 100 q-80-45-185 15z" fill="#171A25"/><path d="M700 1080 q80-70 160 0 l75 290 H630z" fill="#1C4256"/><path d="M730 1110 l-40 260m110-260 55 260" stroke="#172D3A" stroke-width="26"/>
+<!-- backpacks -->
+<path d="M180 1110 q0-80 80-80 h50 q80 0 80 80 v180 H180z" fill="#17384A" opacity=".9"/>
+<path d="M700 1110 q0-75 75-75 h45 q75 0 75 75 v180 H700z" fill="#17384A" opacity=".9"/>
+<!-- green wave -->
+<path d="M0 1370 C220 1270 390 1330 550 1420 C740 1525 890 1510 1080 1390 V1920 H0Z" fill="#063D2B"/>
+<circle cx="150" cy="1510" r="18" fill="#03B721"/><circle cx="930" cy="1570" r="26" fill="#03B721"/><circle cx="1000" cy="1490" r="12" fill="#03B721"/>
+</svg>
