@@ -1,0 +1,49 @@
+{
+  "id": "/",
+  "name": "PASSAGE Mobility – Safe School Rides",
+  "short_name": "PASSAGE",
+  "description": "Safe school rides for children in Kampala: verified riders, live tracking, QR pickup, PIN drop-off and SOS.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ],
+  "background_color": "#063D2B",
+  "theme_color": "#063D2B",
+  "orientation": "portrait-primary",
+  "lang": "en-UG",
+  "categories": [
+    "travel",
+    "education",
+    "kids"
+  ],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/Icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/Icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/Icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/Icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
